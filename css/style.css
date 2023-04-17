@@ -32,6 +32,8 @@ body {
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
 	color: var(--secondary-color);
+		background-color: var(--lighting-color);
+		text-align: center;
 }
 /* ------h3 */
 .subtitle {
@@ -124,6 +126,7 @@ body {
 	font-weight: 700;
 	font-size: 56px;
 	line-height: 1.07;
+	text-align: center;
 	letter-spacing: 0.02em;
 	color: #ffffff;
 }
@@ -156,8 +159,16 @@ body {
 .work-list{
 	background-color:var(--contrasting-color);
 }
+.work-title{
+	text-align: center;
+}
 /*------ team------*/
-
+.team{
+	background-color: var(--lighting-color);
+}
+.team-list-item{
+	background-color:var(--contrasting-color);
+}
 
 /*------ portfolio------*/
 .portfl-btn {
