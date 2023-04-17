@@ -31,6 +31,7 @@ body {
 	line-height: 1.11;
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
+	color: var(--secondary-color);
 }
 /* ------h3 */
 .subtitle {
@@ -38,6 +39,7 @@ body {
 	font-weight: 500;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
+	color: var(--secondary-color);
 }
 /* ------Oписовий текст */
 .deck {
@@ -103,7 +105,7 @@ body {
 }
 /*------ footer------*/
 .footer {
-	background-color: var(--main-color);
+	background-color: var(--secondary-color);
 }
 .footer-logo-accent {
 	color: var(--lighting-color);
@@ -116,13 +118,12 @@ body {
 /*------ main------*/
 /*----- hero -----*/
 .hero {
-	background-color: var(--main-color);
+	background-color: var(--secondary-color);
 }
 .hero-title {
 	font-weight: 700;
 	font-size: 56px;
 	line-height: 1.07;
-	text-align: center;
 	letter-spacing: 0.02em;
 	color: #ffffff;
 }
@@ -149,7 +150,12 @@ body {
 	margin: -1px;
 }
 /*------ work------*/
-
+.work{
+	background-color: var(--lighting-color);
+}
+.work-list{
+	background-color:var(--contrasting-color);
+}
 /*------ team------*/
 
 
