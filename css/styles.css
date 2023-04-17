@@ -24,6 +24,19 @@ body {
 	color: var(--main-color);
 	background-color: var(--bg-main-color);
 }
+
+.visually-hidden {
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	margin: -1px;
+}
 /* ------h2 */
 .section-title {
 	font-size: 36px;
@@ -144,18 +157,7 @@ body {
 	background-color: var(--bg-hover-btn);
 }
 /*------ about------*/
-.visually-hidden {
-	position: absolute;
-	white-space: nowrap;
-	width: 1px;
-	height: 1px;
-	overflow: hidden;
-	border: 0;
-	padding: 0;
-	clip: rect(0 0 0 0);
-	clip-path: inset(50%);
-	margin: -1px;
-}
+
 /*------ work------*/
 .work{
 	background-color: var(--lighting-color);
@@ -181,7 +183,8 @@ body {
 /*------ portfolio------*/
 .portfl-btn {
 	color:var(--accent-color);
-	background-color:var(--lighting-color) ;
+	background-color:var(--lighting-color);
+	cursor: pointer;
 }
 .portfl-btn:hover,
 .portfl-btn:focus{
