@@ -1,10 +1,10 @@
 /*------ Змінні------*/
 :root {
 	--main-color: #434455;
-	--secondary-color:#2e2f42 ;
+	--secondary-color: #2e2f42;
 	--contrasting-color: #ffffff;
 	--accent-color: #4d5ae5;
-	--lighting-color: #f4f4fd;
+	--lighting-color: #F4F4FD;
 
 	--bg-main-color: #ffffff;
 	--bg-accent-color: #e7e9fc;
@@ -33,7 +33,7 @@ body {
 	text-transform: capitalize;
 	color: var(--secondary-color);
 		background-color: var(--lighting-color);
-		text-align: center;
+	
 }
 /* ------h3 */
 .subtitle {
@@ -126,7 +126,6 @@ body {
 	font-weight: 700;
 	font-size: 56px;
 	line-height: 1.07;
-	text-align: center;
 	letter-spacing: 0.02em;
 	color: #ffffff;
 }
@@ -159,9 +158,7 @@ body {
 .work-list{
 	background-color:var(--contrasting-color);
 }
-.work-title{
-	text-align: center;
-}
+
 /*------ team------*/
 .team{
 	background-color: var(--lighting-color);
