@@ -1,7 +1,7 @@
 /*------ Змінні------*/
 :root {
-	--main-color: #2e2f42;
-	--secondary-color: #434455;
+	--main-color: #434455;
+	--secondary-color:#2e2f42 ;
 	--contrasting-color: #ffffff;
 	--accent-color: #4d5ae5;
 	--lighting-color: #f4f4fd;
@@ -48,6 +48,7 @@ body {
 }
 /* ------button */
 .button-text {
+	font-family: "Roboto", sans-serif;
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 1.5;
@@ -62,7 +63,7 @@ body {
 	letter-spacing: 0.02em;
 }
 .list {
-	list-style-type: none;
+	list-style: none;
 }
 .link {
 	text-decoration: none;
@@ -71,19 +72,19 @@ body {
 /*----- header -----*/
 .header-logo,
 .footer-logo {
-	font-family: "Raleway" sans-serif;
+	font-family: "Raleway", sans-serif;
 	font-weight: 800;
 	font-size: 18px;
 	line-height: 1.17;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: var(--main-color);
+	color: var(--accent-color);
 	text-decoration: none;
 }
-.header-logo-accent,
-.footer-logo-accent {
-	color: var(--accent-color);
+.header-logo-accent{
+	color: var(--secondary-color);
 }
+
 .header-nav-link {
 	font-weight: 500;
 	font-size: 16px;
@@ -104,9 +105,10 @@ body {
 .footer {
 	background-color: var(--main-color);
 }
-.footer-logo {
-	color:var(--lighting-color)
+.footer-logo-accent {
+	color: var(--lighting-color);
 }
+
 .footer-text {
 	color: var(--lighting-color);
 	
